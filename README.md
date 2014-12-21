@@ -2,7 +2,6 @@
 title: "README, Getting and Cleaning Data Course Project"
 author: "Meryem Sah"
 date: "Sunday, December 21, 2014"
-output: html_document
 ---
 
 ### Information about the Data

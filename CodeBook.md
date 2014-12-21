@@ -2,21 +2,15 @@
 title: "Code book, Getting and Cleaning Data Course Project"
 author: "Meryem Sah"
 date: "Sunday, December 21, 2014"
-output: html_document
 ---
 
 ###run_analysis.R
 
-1. Merge the training and the test sets to create one data set
-- using `rbind()`
-2. Extract only the measurements on the mean and standard deviation for each measurement
-- using the correct names from the `features.txt` file
-3. Use descriptive activity names to name the activities in the data set
-- taking from the `activity_labels.txt` file
-4. Appropriately labels the data set with descriptive variable names
-- assigning new names
-5. Create a second, independent tidy data set with the average of each variable for each activity and each subject. 
-- using `write.table()`
+1. Merge the training and the test sets to create one data set by using `rbind()`
+2. Extract only the measurements on the mean and standard deviation for each measurement and assigning the correct names by using the `features.txt` file
+3. Use descriptive activity names to name the activities in the data set (taking from the `activity_labels.txt` file)
+4. Appropriately labels the data set with descriptive variable names by simply assigning new names
+5. Create a second, independent tidy data set with the average of each variable for each activity and each subject and saving them in a seperate `.txt` file by using `write.table()`
 
 
 ###Variables
